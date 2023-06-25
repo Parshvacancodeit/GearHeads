@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  background-color: #080202;
+}
+@font-face {
+  font-family: myFont;
+  src: url(62Dragz.otf);
+}
+
+h1 {
+  font-size: 4.5rem;
+  
+  
+  color: orange;
+  font-family: myFont;
+  
+  font-stretch: expanded;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+  content-visibility: hidden;
+  background-image: url(./images/mustang.jpg);
+
+  
+
+}
+
+.a {
+  content-visibility: hidden;
+  background-image: url(./images/bugatti.jpg);
+}
+
+.s {
+  content-visibility: hidden;
+  background-image: url(./images/lambo.jpg);
+
+}
+
+.d {
+  content-visibility: hidden;
+  background-image: url(./images/ferrari.jpg);
+}
+
+
+
+.set {
+  margin: 10% auto;
+  
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  
+  
+  
+  box-shadow: 1.5px;
+  font-size: 2.5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 700;
+  color: white;
+  text-shadow: 1.25px 0 #DBEDF3;
+  border-radius: 12.5px;
+  display: inline-block;
+  gap: 10px;
+  width: 275px;
+  height: 275px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
